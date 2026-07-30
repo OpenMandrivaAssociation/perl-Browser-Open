@@ -9,7 +9,7 @@ Summary:	Open a browser in a given URL
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Browser-Open
-Source0:	https://cpan.metacpan.org/authors/id/C/CF/CFRANKS/Browser-Open-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CF/CFRANKS/Browser-Open-0.04.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
