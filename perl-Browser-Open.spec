@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.04
-Release:	2
+Release:	3
 
 Summary:	Open a browser in a given URL
 License:	GPL+ or Artistic
