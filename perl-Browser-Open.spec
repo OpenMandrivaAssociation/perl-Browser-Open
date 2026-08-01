@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.04
-Release:	6
+Release:	7
 
 Summary:	Open a browser in a given URL
 License:	GPL+ or Artistic
@@ -41,6 +41,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 # soft: do not fail package on test failures
 set +e
 :  # soft check
+make test || :
 %make test || :
 
 %install
